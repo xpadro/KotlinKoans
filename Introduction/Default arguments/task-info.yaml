@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 56
+    length: 69
     placeholder_text: 'fun foo(name: String, number: Int, toUpperCase: Boolean)'
     initial_state:
       length: 56
@@ -13,8 +13,8 @@ files:
     initialized_from_dependency: false
     possible_answer: 'fun foo(name: String, number: Int = 42, toUpperCase: Boolean
       = false)'
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     fun foo(name: String, number: Int, toUpperCase: Boolean) =
             (if (toUpperCase) name.toUpperCase() else name) + number
@@ -41,5 +41,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
