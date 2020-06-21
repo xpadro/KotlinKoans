@@ -5,15 +5,15 @@ files:
   visible: true
   placeholders:
   - offset: 76
-    length: 6
+    length: 27
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 76
     initialized_from_dependency: false
     possible_answer: prefix = "[", postfix = "]"
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     fun joinOptions(options: Collection<String>) =
             options.joinToString(TODO())
@@ -34,5 +34,5 @@ files:
 
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
