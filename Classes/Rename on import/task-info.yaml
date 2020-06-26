@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 57
+    length: 75
     placeholder_text: |-
       // import kotlin.random.Random
       // import java.util.Random
@@ -16,20 +16,20 @@ files:
     possible_answer: |-
       import kotlin.random.Random as KRandom
       import java.util.Random as JRandom
-    selected: false
-    status: Unchecked
-  - offset: 144
-    length: 23
+    selected: true
+    status: Solved
+  - offset: 162
+    length: 21
     placeholder_text: // KRandom.nextInt(2) +
     initial_state:
       length: 23
       offset: 144
     initialized_from_dependency: false
     possible_answer: KRandom.nextInt(2) +
-    selected: false
-    status: Unchecked
-  - offset: 210
-    length: 25
+    selected: true
+    status: Solved
+  - offset: 226
+    length: 23
     placeholder_text: // JRandom().nextInt(2) +
     initial_state:
       length: 25
@@ -37,7 +37,7 @@ files:
     initialized_from_dependency: false
     possible_answer: JRandom().nextInt(2) +
     selected: false
-    status: Unchecked
+    status: Solved
   text: |-
     // import kotlin.random.Random
     // import java.util.Random
@@ -66,5 +66,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
